@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:textSize="70px"
+        android:textColor="@color/black"
+        android:text="SIGN UP" />
+
+
+    <EditText
+        android:id="@+id/id_input_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="10dp"
+        android:hint="Nama lengkap"/>
+
+    <EditText
+        android:id="@+id/id_input_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="10dp"
+        android:hint="Alamat Email"/>
+    s
+    <EditText
+        android:id="@+id/id_input_nomor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:layout_marginBottom="10dp"
+        android:hint="Nomor Telepon"/>
+
+    <EditText
+        android:id="@+id/id_input_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:hint="Password"/>
+
+    <Button
+        android:id="@+id/in_button_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Daftar" />
+
+</LinearLayout>
