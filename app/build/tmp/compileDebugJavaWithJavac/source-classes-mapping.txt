@@ -1,0 +1,5 @@
+com/joseph/formapps/BuildConfig.java
+ com.joseph.formapps.BuildConfig
+com/joseph/formapps/MainActivity.java
+ com.joseph.formapps.MainActivity
+ com.joseph.formapps.MainActivity$1
